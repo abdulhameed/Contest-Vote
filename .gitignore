@@ -10,3 +10,16 @@ db.sqlite3
 .DS_Store  
 # Project exclude paths
 /venv/
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3-journal
+
+# Environments
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/

@@ -1,5 +1,4 @@
 {% load static %}
-{% load icon %}
 
 <!-- BEGIN: Main Menu-->
     <div class="horizontal-menu-wrapper">
@@ -46,15 +45,15 @@
 
                     <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link d-flex align-items-center" href="#" data-bs-toggle="dropdown"><i data-feather="columns"></i><span data-i18n="Apps">Category</span></a>
                         <ul class="dropdown-menu" data-bs-popper="none">
-                            <li data-menu=""><a class="dropdown-item d-flex align-items-center" href="app-email.html" data-bs-toggle="" data-i18n="Email"><i data-feather="mail"></i><span data-i18n="Email">Category 1</span></a>
+                            <li data-menu=""><a class="dropdown-item d-flex align-items-center" href="#" data-bs-toggle="" data-i18n="Email"><i data-feather="mail"></i><span data-i18n="Email">Category 1</span></a>
                             </li>
-                            <li data-menu=""><a class="dropdown-item d-flex align-items-center" href="app-chat.html" data-bs-toggle="" data-i18n="Chat"><i data-feather="message-square"></i><span data-i18n="Chat">Category 2</span></a>
+                            <li data-menu=""><a class="dropdown-item d-flex align-items-center" href="#" data-bs-toggle="" data-i18n="Chat"><i data-feather="message-square"></i><span data-i18n="Chat">Category 2</span></a>
                             </li>
-                            <li data-menu=""><a class="dropdown-item d-flex align-items-center" href="app-todo.html" data-bs-toggle="" data-i18n="Todo"><i data-feather="check-square"></i><span data-i18n="Todo">Category 3</span></a>
+                            <li data-menu=""><a class="dropdown-item d-flex align-items-center" href="#" data-bs-toggle="" data-i18n="Todo"><i data-feather="check-square"></i><span data-i18n="Todo">Category 3</span></a>
                             </li>
-                            <li data-menu=""><a class="dropdown-item d-flex align-items-center" href="app-calendar.html" data-bs-toggle="" data-i18n="Calendar"><i data-feather="calendar"></i><span data-i18n="Calendar">Category 4</span></a>
+                            <li data-menu=""><a class="dropdown-item d-flex align-items-center" href="#" data-bs-toggle="" data-i18n="Calendar"><i data-feather="calendar"></i><span data-i18n="Calendar">Category 4</span></a>
                             </li>
-                            <li data-menu=""><a class="dropdown-item d-flex align-items-center" href="app-kanban.html" data-bs-toggle="" data-i18n="Kanban"><i data-feather="grid"></i><span data-i18n="Kanban">Category 5</span></a>
+                            <li data-menu=""><a class="dropdown-item d-flex align-items-center" href="#" data-bs-toggle="" data-i18n="Kanban"><i data-feather="grid"></i><span data-i18n="Kanban">Category 5</span></a>
                             </li>
                             <li class="dropdown dropdown-submenu" data-menu="dropdown-submenu"><a class="dropdown-item d-flex align-items-center dropdown-toggle" href="#" data-bs-toggle="dropdown" data-i18n="Invoice"><i data-feather="file-text"></i><span data-i18n="Invoice">Category 6</span></a>
                                 <ul class="dropdown-menu" data-bs-popper="none">
@@ -68,7 +67,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            <li data-menu=""><a class="dropdown-item d-flex align-items-center" href="app-file-manager.html" data-bs-toggle="" data-i18n="File Manager"><i data-feather="save"></i><span data-i18n="File Manager">Category 7</span></a>
+                            <li data-menu=""><a class="dropdown-item d-flex align-items-center" href="#" data-bs-toggle="" data-i18n="File Manager"><i data-feather="save"></i><span data-i18n="File Manager">Category 7</span></a>
                             </li>
                             <li class="dropdown dropdown-submenu" data-menu="dropdown-submenu"><a class="dropdown-item d-flex align-items-center dropdown-toggle" href="#" data-bs-toggle="dropdown" data-i18n="Roles &amp; Permission"><i data-feather="shield"></i><span data-i18n="Roles &amp; Permission">Category 8</span></a>
                                 <ul class="dropdown-menu" data-bs-popper="none">
@@ -83,9 +82,9 @@
 
                     <li class="dropdown nav-item" data-menu="dropdown"><a class="dropdown-toggle nav-link d-flex align-items-center" href="{% url 'contest:create-contest' %}" data-bs-toggle="dropdown"><i data-feather="layers"></i><span data-i18n="User Interface">New Contest</span></a>
                         <ul class="dropdown-menu" data-bs-popper="none">
-                            <li data-menu=""><a class="dropdown-item d-flex align-items-center" href="{% url 'contest:create-contest' %}" data-bs-toggle="" data-i18n="Typography"><span>{% icon "dollar-sign" class="css-class" height="8" width="8" %} Paid Contest</span></a>
+                            <li data-menu=""><a class="dropdown-item d-flex align-items-center" href="{% url 'contest:create-contest' %}" data-bs-toggle="" data-i18n="Feather"><i data-feather="dollar-sign"></i><span data-i18n="Feather"> Paid Contest</span></a>
                             </li>
-                            <li data-menu=""><a class="dropdown-item d-flex align-items-center" href="{% url 'contest:create-contest' %}" data-bs-toggle="" data-i18n="Feather"><i data-feather="droplet"></i><span data-i18n="Feather">Free Contest</span></a>
+                            <li data-menu=""><a class="dropdown-item d-flex align-items-center" href="{% url 'contest:create-contest' %}" data-bs-toggle="" data-i18n="Feather"><i data-feather="droplet"></i><span data-i18n="Feather"> Free Contest</span></a>
                             </li>
                         </ul>
                     </li>

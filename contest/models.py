@@ -24,7 +24,7 @@ class Category(models.Model):
 
 class Contest(models.Model):
     name = models.CharField(max_length=30)
-    photo = models.ImageField(default='contest_art/default.png', upload_to='contest_art')
+    photo = models.ImageField(default='media/contest.jpg', upload_to='voteDeck_contest')
     brief_post = models.TextField(blank=True, null=True)
     post = models.TextField(blank=True, null=True)
     cash_vote = models.BooleanField(default=False)
@@ -70,7 +70,7 @@ class Contest(models.Model):
 class Contestant(models.Model):
     contest = models.ForeignKey(Contest, on_delete=models.CASCADE, related_name='participating_contest')
     name = models.CharField(max_length=30, blank=True, null=True)
-    photo = models.ImageField(default='contestant_art/default.png', upload_to='contestant_art')
+    photo = models.ImageField(default='media/contestant.jpg', upload_to='voteDeck_contestant')
     title = models.CharField(max_length=50, blank=True, null=True)
     brief_post = models.TextField(blank=True, null=True)
     post = models.TextField(blank=True, null=True)
